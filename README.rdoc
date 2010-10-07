@@ -1,3 +1,20 @@
 = vim-apt
 
 Provides an APT like system to install, search, and keep updated your Vim Plugins.
+
+== Planning
+
+This is the actual planning for the vim-apt commands.
+
+Examples:
+
+    vim-apt list
+
+    vim-apt update # Update and see new versions of that package (like apt-get update)
+
+    vim-apt install command_t
+
+    vim-apt upgrade
+
+    vim-apt remove command_t
+
